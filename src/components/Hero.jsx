@@ -29,7 +29,7 @@ const Hero = () => {
             Designing seamless digital experiences that connect users
             and businesses.
           </p>
-          <button>LinkedIn</button>
+          {/* <button>LinkedIn</button>
           <button>Behance</button>
           <button>Email</button>
           <button>Medium</button>
@@ -42,7 +42,7 @@ const Hero = () => {
                 {...project}
               />
             ))}
-          </div>
+          </div> */}
         </div>
       </div>
 
