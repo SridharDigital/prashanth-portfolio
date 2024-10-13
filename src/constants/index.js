@@ -1,4 +1,8 @@
 import {
+  rootNaive,
+  hotstar,
+  creativeLink,
+  superPets,
   concentrix,
   mobile,
   backend,
@@ -35,6 +39,7 @@ import {
   careerconnect,
   aicade,
   miro,
+  pillping,
 } from '../assets'
 
 export const navLinks = [
@@ -258,6 +263,82 @@ const testimonials = [
 
 const projects = [
   {
+    name: 'UI/UX DESIGN | BIOTECH | MOBILE APP',
+    description:
+      'An app simplifies and helps users finding long-lost relatives by offering a door-step service where a representative conducts the DNA test at the users home. This removes the hassle of self-testing and shipping, making the process easier, more accurate, and convenient, helping users focus on discovering and connecting with relatives.',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'bootstrap',
+        color: 'text-violet-600',
+      },
+      {
+        name: 'javascript',
+        color: 'text-amber-400',
+      },
+    ],
+    image: rootNaive,
+    source_code_link: 'https://github.com/SridharDigital/Career-Connect',
+    live_website_link: '#',
+  },
+  {
+    name: 'UI/UX CASE STUDY | PETCARE | E-COMMERCE | MOBILE APP',
+    description:
+      'SuperPets is an user-friendly app that centralizes pet care management, allowing owners to effortlessly track health records, schedule appointments, and access and manage veterinary appointments. Integrated features for grooming, shopping, and adoption support ensure convenience and holistic pet care management in a single platform.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'bootstrap',
+        color: 'text-violet-600',
+      },
+    ],
+    image: superPets,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'UI/UX CASE STUDY | EDTECH | DESIGN NETWORKING | WEB APP',
+    description:
+      'Creative Link connects designers, educators, and aspiring creatives in one dynamic platform. From sharing portfolios to exploring design inspirations, solving industry challenges through Q&A, and preparing for career growth with mentorship and interview resources—Creative Link empowers users to thrive in the world of design.',
+    tags: [
+      {
+        name: 'nextjs',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'supabase',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'bootstrap',
+        color: 'text-violet-600',
+      },
+    ],
+    image: creativeLink,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'UX RESEARCH | PRODUCT IMPOVEMENT | ENTERTAINMENT | OTT',
+    description:
+      'Focused on addressing key user pain points and enhancing overall usability on Hotstar. Identified issues included the inability to delete multiple downloaded files and challenges in navigating series with many episodes etc. The solution introduced batch deletion functionality for managing downloads more efficiently and a responsive scroll bar for better episode navigation.',
+    image: hotstar,
+    source_code_link: 'https://github.com/SridharDigital/YuzoMart',
+    live_website_link: '#',
+  },
+  {
     name: 'Filmx',
     description:
       'Filmx aims to provide an epic cinematic experience, offering users a platform to explore, discover, and engage with a vast collection of movies and TV shows.',
@@ -288,78 +369,13 @@ const projects = [
     live_website_link: 'https://filmx.vercel.app/',
   },
   {
-    name: 'YuzoMart',
+    name: 'PillPing',
     description:
-      'YuzoMart is a dynamic e-commerce platform that caters to a diverse range of customer needs by offering an extensive array of products.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'javascript',
-        color: 'text-amber-400',
-      },
-      {
-        name: 'bootstrap',
-        color: 'text-violet-600',
-      },
-      {
-        name: 'restapi',
-        color: 'text-green-400',
-      },
-    ],
-    image: yuzomart,
+      'Pillping simplifies health management with trackers for health, vaccinations, appointments, documents, and medications. Designed for ease, it offers a unified platform to track meds, monitor health, manage appointments, and store documents securely, promoting proactive health management.',
+    image: pillping,
     source_code_link: 'https://github.com/SridharDigital/YuzoMart',
-    live_website_link: 'https://yuzomart.vercel.app/',
+    live_website_link: '#',
   },
-  {
-    name: 'Career Connect',
-    description:
-      'A job search platform showcasing the latest job openings in product-based companies that enables users to search for job openings, view estimated salary ranges for positions.',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'bootstrap',
-        color: 'text-violet-600',
-      },
-      {
-        name: 'javascript',
-        color: 'text-amber-400',
-      },
-    ],
-    image: careerconnect,
-    source_code_link: 'https://github.com/SridharDigital/Career-Connect',
-    live_website_link: 'https://careerconnects.vercel.app/',
-  },
-  // {
-  //   name: "Trip Guide",
-  //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "bootstrap",
-  //       color: "text-violet-600",
-  //     },
-  //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
-  // },
 ]
 
 export { services, technologies, experiences, testimonials, projects }

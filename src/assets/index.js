@@ -41,10 +41,20 @@ import carrent from './carrent.png'
 import jobit from './jobit.png'
 import tripguide from './tripguide.png'
 import yuzomart from './yuzomart.png'
-import filmx from './filmx.png'
+import filmx from './filmx.jpg'
+import pillping from './pillping.jpg'
 import careerconnect from './careerconnect.png'
 
+import rootNaive from './projects/rootNaive.jpg'
+import hotstar from './projects/hotstar.jpg'
+import creativeLink from './projects/creativeLink.jpg'
+import superPets from './projects/superPets.jpg'
+
 export {
+  rootNaive,
+  hotstar,
+  creativeLink,
+  superPets,
   concentrix,
   miro,
   logo,
@@ -86,4 +96,5 @@ export {
   websitelink,
   filmx,
   careerconnect,
+  pillping,
 }
