@@ -263,25 +263,21 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'UI/UX DESIGN | BIOTECH | MOBILE APP',
+    name: 'RootRevive',
     description:
       'An app simplifies and helps users finding long-lost relatives by offering a door-step service where a representative conducts the DNA test at the users home. This removes the hassle of self-testing and shipping, making the process easier, more accurate, and convenient, helping users focus on discovering and connecting with relatives.',
     tags: [
       {
-        name: 'react',
+        name: 'UI/UX DESIGN',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'BIOTECH',
         color: 'green-text-gradient',
       },
       {
-        name: 'bootstrap',
+        name: 'MOBILE APP',
         color: 'text-violet-600',
-      },
-      {
-        name: 'javascript',
-        color: 'text-amber-400',
       },
     ],
     image: rootNaive,
@@ -289,20 +285,24 @@ const projects = [
     live_website_link: '#',
   },
   {
-    name: 'UI/UX CASE STUDY | PETCARE | E-COMMERCE | MOBILE APP',
+    name: 'SuperPets',
     description:
       'SuperPets is an user-friendly app that centralizes pet care management, allowing owners to effortlessly track health records, schedule appointments, and access and manage veterinary appointments. Integrated features for grooming, shopping, and adoption support ensure convenience and holistic pet care management in a single platform.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'UI/UX CASE STUDY',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'PETCARE',
         color: 'green-text-gradient',
       },
       {
-        name: 'bootstrap',
+        name: 'MOBILE APP',
+        color: 'text-violet-600',
+      },
+      {
+        name: 'E-COMMERCE',
         color: 'text-violet-600',
       },
     ],
@@ -310,20 +310,24 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'UI/UX CASE STUDY | EDTECH | DESIGN NETWORKING | WEB APP',
+    name: 'Creative Link',
     description:
       'Creative Link connects designers, educators, and aspiring creatives in one dynamic platform. From sharing portfolios to exploring design inspirations, solving industry challenges through Q&A, and preparing for career growth with mentorship and interview resources—Creative Link empowers users to thrive in the world of design.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'UI/UX CASE STUDY',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'EDTECH',
         color: 'green-text-gradient',
       },
       {
-        name: 'bootstrap',
+        name: 'WEB APP',
+        color: 'text-violet-600',
+      },
+      {
+        name: 'DESIGN NETWORKING',
         color: 'text-violet-600',
       },
     ],
@@ -331,17 +335,64 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'UX RESEARCH | PRODUCT IMPOVEMENT | ENTERTAINMENT | OTT',
+    name: 'Hotstar',
     description:
       'Focused on addressing key user pain points and enhancing overall usability on Hotstar. Identified issues included the inability to delete multiple downloaded files and challenges in navigating series with many episodes etc. The solution introduced batch deletion functionality for managing downloads more efficiently and a responsive scroll bar for better episode navigation.',
     image: hotstar,
     source_code_link: 'https://github.com/SridharDigital/YuzoMart',
     live_website_link: '#',
+    tags: [
+      {
+        name: 'UX RESEARCH',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'PRODUCT IMPOVEMENT',
+        color: 'text-indigo-500',
+      },
+      {
+        name: 'ENTERTAINMENT',
+        color: 'text-amber-400',
+      },
+      {
+        name: 'OTT',
+        color: 'pink-text-gradient',
+      },
+    ],
   },
   {
     name: 'Filmx',
     description:
       'Filmx aims to provide an epic cinematic experience, offering users a platform to explore, discover, and engage with a vast collection of movies and TV shows.',
+    tags: [
+      {
+        name: 'UI/UX DESIGN',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'FRONTEND DEVELOPMENT',
+        color: 'text-indigo-500',
+      },
+      {
+        name: 'ENTERTAINMENT ',
+        color: 'text-amber-400',
+      },
+      {
+        name: 'OTT',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: filmx,
+    source_code_link: 'https://github.com/SridharDigital/Filmx',
+    live_website_link: 'https://filmx.vercel.app/',
+  },
+  {
+    name: 'PillPing',
+    description:
+      'Pillping simplifies health management with trackers for health, vaccinations, appointments, documents, and medications. Designed for ease, it offers a unified platform to track meds, monitor health, manage appointments, and store documents securely, promoting proactive health management.',
+    image: pillping,
+    source_code_link: 'https://github.com/SridharDigital/YuzoMart',
+    live_website_link: '#',
     tags: [
       {
         name: 'react',
@@ -364,17 +415,6 @@ const projects = [
         color: 'text-green-400',
       },
     ],
-    image: filmx,
-    source_code_link: 'https://github.com/SridharDigital/Filmx',
-    live_website_link: 'https://filmx.vercel.app/',
-  },
-  {
-    name: 'PillPing',
-    description:
-      'Pillping simplifies health management with trackers for health, vaccinations, appointments, documents, and medications. Designed for ease, it offers a unified platform to track meds, monitor health, manage appointments, and store documents securely, promoting proactive health management.',
-    image: pillping,
-    source_code_link: 'https://github.com/SridharDigital/YuzoMart',
-    live_website_link: '#',
   },
 ]
 

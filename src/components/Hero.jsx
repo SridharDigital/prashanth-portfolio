@@ -1,11 +1,9 @@
 import { motion } from 'framer-motion'
 
 import { styles } from '../styles'
-import { ComputersCanvas } from './canvas'
 import { projects } from '../constants'
 import { fadeIn } from '../utils/motion'
 import { Tilt } from 'react-tilt'
-import { github, websitelink } from '../assets'
 
 const Hero = () => {
   return (
@@ -17,7 +15,6 @@ const Hero = () => {
           <div className="w-5 h-5 rounded-full bg-[#915EFF]" />
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
-
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
             Hi, I'm <span className="text-[#915EFF]">Prashanth</span>
@@ -90,9 +87,9 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full "
+        className="rounded-2xl sm:w-[360px] w-full cursor-pointer"
       >
-        <div className="relative w-full h-[160px]">
+        <div className="relative w-full h-[230px]">
           <img
             src={image}
             alt="project_image"
@@ -124,7 +121,7 @@ const ProjectCard = ({
         </div>
 
         <div className="mt-5">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          {/* <h3 className="text-white font-bold text-[24px]">{name}</h3> */}
           {/* <p className="mt-2 text-secondary text-[14px]">{description}</p> */}
         </div>
 

@@ -41,7 +41,7 @@ import carrent from './carrent.png'
 import jobit from './jobit.png'
 import tripguide from './tripguide.png'
 import yuzomart from './yuzomart.png'
-import filmx from './filmx.jpg'
+import filmx from './projects/filmx.jpg'
 import pillping from './pillping.jpg'
 import careerconnect from './careerconnect.png'
 
